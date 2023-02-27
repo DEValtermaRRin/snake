@@ -1,0 +1,27 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "simple game snake",
+  "main": "main.js",
+  "homepage": "https://DEValtermaRRin.github.io/snake",
+  "scripts": {
+    "ghp": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEValtermaRRin/snake.git"
+  },
+  "keywords": [
+    "snake",
+    "game",
+    "JavaScript"
+  ],
+  "author": "AltermaRRin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEValtermaRRin/snake/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
