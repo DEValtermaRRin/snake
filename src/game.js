@@ -57,19 +57,19 @@ class Game {
     }
   }
 
-	isGameLost() {		
+	isGameLost() {
 		if (this.board.isNextStepToWall(this.snake.body[0]) || this.board.isNextStepToSnake(this.snake.body[0])) {
 			clearInterval(this.tickIdentifier);
-			this.setMessage('Вы проиграли');
+			this.setMessage('Вы проиграли =o(');
 			return true;
-		}		
+		}
 		return false;
 	}
 
 	isGameWon() {
 		if (this.snake.body.length == this.settings.winLength) {
 			clearInterval(this.tickIdentifier);
-			this.setMessage('Вы выиграли');
+			this.setMessage('Вы выиграли =o)');
 			return true;
 		}
 		return false;
